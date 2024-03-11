@@ -56,47 +56,6 @@ chip northbridge/intel/x4x		# Northbridge
 			device pci 1e.0 on  end		# PCI bridge
 			device pci 1f.0 on		# LPC bridge
 			
-					end
-					device pnp 2e.5 on		# Keyboard
-						io 0x60  = 0x060
-						irq 0x70 = 0x1
-						io 0x62  = 0x064
-						irq 0xf0 = 0x00
-					end
-					device pnp 2e.6 on		# Mouse
-						irq 0x70 = 0x0c
-						irq 0xf0 = 0x00
-					end
-					device pnp 2e.7 on		# GPIO
-						io 0x60 = 0x000
-						io 0x62 = 0xa20
-						io 0x64 = 0xa30
-						irq 0xc0 = 0x01		# Simple IO Set 1
-						irq 0xc1 = 0x0c		# Simple IO Set 2
-						irq 0xc2 = 0x70		# Simple IO Set 3
-						irq 0xc3 = 0x00		# Simple IO Set 4
-						irq 0xc8 = 0x01		# Simple IO Set 1 Output
-						irq 0xc9 = 0x0c		# Simple IO Set 2 Output
-						irq 0xca = 0x00		# Simple IO Set 3 Output
-						irq 0xcb = 0x00		# Simple IO Set 4 Output
-						irq 0xf0 = 0x00
-						irq 0xf1 = 0x00
-						irq 0xf2 = 0x00
-						irq 0xf3 = 0x00
-						irq 0xf4 = 0x00
-						irq 0xf5 = 0x00
-						irq 0xf6 = 0x00
-						irq 0xf7 = 0x00
-						irq 0xf8 = 0x12
-						irq 0xf9 = 0x02
-						irq 0xfa = 0x13
-						irq 0xfb = 0x02
-						#irq 0xfc = 0xef	# VID Input
-						irq 0xfd = 0x00
-						irq 0xfe = 0x00
-					end
-					device pnp 2e.a off end		# CIR
-				end
 			end
 			device pci 1f.2 on  end		# SATA (IDE: port 0-3, AHCI/RAID: 0-5)
 			device pci 1f.3 on		# SMBus
@@ -110,8 +69,8 @@ chip northbridge/intel/x4x		# Northbridge
 							     0x00, 0x24, 0x7d, 0x96,
 							     0x00, 0x9d }"
 					device i2c 69 on end
-				
-			
+				end
+			end
 			device pci 1f.4 off end
 			device pci 1f.5 off end		# SATA 2 (for port 4-5 in IDE mode)
 			device pci 1f.6 off end		# Thermal Subsystem
