@@ -1,0 +1,2 @@
+config BOARD_LENOVO_MTQ45IK
+	bool "MTQ45IK"

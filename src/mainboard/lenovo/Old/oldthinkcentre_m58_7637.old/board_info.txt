@@ -1,0 +1,8 @@
+Category: USFF Thinclient
+Board URL: https://pcsupport.lenovo.com/lk/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m58/7637
+ROM package: SOIC-8
+ROM protocol: SPI
+ROM socketed: n
+Flashrom support: y
+Release year: 2009
+Mainboard:MTQ45IK

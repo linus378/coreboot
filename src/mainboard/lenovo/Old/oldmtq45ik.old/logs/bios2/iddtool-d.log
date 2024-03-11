@@ -1,0 +1,189 @@
+File m58B.bin is 4194304 bytes
+ICH Revision: ICH10
+FLMAP0:    0x04040001
+  NR:      4
+  FRBA:    0x40
+  NC:      1
+  FCBA:    0x10
+FLMAP1:    0x03100206
+  ISL:     0x03
+  FPSBA:   0x100
+  NM:      2
+  FMBA:    0x60
+FLMAP2:    0x00000120
+  PSL:     0x0001
+  FMSBA:   0x200
+FLUMAP1:   0x00000aed
+  Intel ME VSCC Table Length (VTL):        10
+  Intel ME VSCC Table Base Address (VTBA): 0x000ed0
+
+ME VSCC table:
+  JID0:  0x004a25bf
+    SPI Component Vendor ID:            0xbf
+    SPI Component Device ID 0:          0x25
+    SPI Component Device ID 1:          0x4a
+  VSCC0: 0x20092009
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        Yes
+    Lower Write Granularity:            1 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        Yes
+    Upper Write Granularity:            1 bytes
+    Upper Block / Sector Erase Size:    4KB
+  JID1:  0x001620c2
+    SPI Component Vendor ID:            0xc2
+    SPI Component Device ID 0:          0x20
+    SPI Component Device ID 1:          0x16
+  VSCC1: 0x20052005
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+  JID2:  0x001630ef
+    SPI Component Vendor ID:            0xef
+    SPI Component Device ID 0:          0x30
+    SPI Component Device ID 1:          0x16
+  VSCC2: 0x20052005
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+  JID3:  0x0000471f
+    SPI Component Vendor ID:            0x1f
+    SPI Component Device ID 0:          0x47
+    SPI Component Device ID 1:          0x00
+  VSCC3: 0x20152015
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x06
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x06
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+  JID4:  0x00167120
+    SPI Component Vendor ID:            0x20
+    SPI Component Device ID 0:          0x71
+    SPI Component Device ID 1:          0x16
+  VSCC4: 0x20052005
+    Lower Erase Opcode:                 0x20
+    Lower Write Enable on Write Status: 0x50
+    Lower Write Status Required:        No
+    Lower Write Granularity:            64 bytes
+    Lower Block / Sector Erase Size:    4KB
+    Upper Erase Opcode:                 0x20
+    Upper Write Enable on Write Status: 0x50
+    Upper Write Status Required:        No
+    Upper Write Granularity:            64 bytes
+    Upper Block / Sector Erase Size:    4KB
+
+OEM Section:
+00: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+10: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+20: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+30: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+
+Found Region Section
+FLREG0:    0x00010000
+  Flash Region 0 (Flash Descriptor): 00000000 - 00001fff 
+FLREG1:    0x03ff0280
+  Flash Region 1 (BIOS): 00280000 - 003fffff 
+FLREG2:    0x02770006
+  Flash Region 2 (Intel ME): 00006000 - 00277fff 
+FLREG3:    0x00050002
+  Flash Region 3 (GbE): 00002000 - 00005fff 
+FLREG4:    0x027f0278
+  Flash Region 4 (Platform Data): 00278000 - 0027ffff 
+
+Found Component Section
+FLCOMP     0x00300013
+  Dual Output Fast Read Support:       not supported
+  Read ID/Read Status Clock Frequency: 20MHz
+  Write/Erase Clock Frequency:         20MHz
+  Fast Read Clock Frequency:           33MHz
+  Fast Read Support:                   supported
+  Read Clock Frequency:                20MHz
+  Component 2 Density:                 2MB
+  Component 1 Density:                 4MB
+FLILL      0x00000000
+  Invalid Instruction 3: 0x00
+  Invalid Instruction 2: 0x00
+  Invalid Instruction 1: 0x00
+  Invalid Instruction 0: 0x00
+FLPB       0x00000000
+  Flash Partition Boundary Address: 0x000000
+
+Found PCH Strap Section
+PCHSTRP0  : 0x10195e08
+PCHSTRP1  : 0x0000810f
+PCHSTRP2  : 0x6165696d
+ICH_MeDisable bit is not set
+
+Found Master Section
+FLMSTR1:   0x1a1b0000 (Host CPU/BIOS)
+  Platform Data Region Write Access: enabled
+  GbE Region Write Access:           enabled
+  Intel ME Region Write Access:      disabled
+  Host CPU/BIOS Region Write Access: enabled
+  Flash Descriptor Write Access:     disabled
+  Platform Data Region Read Access:  enabled
+  GbE Region Read Access:            enabled
+  Intel ME Region Read Access:       disabled
+  Host CPU/BIOS Region Read Access:  enabled
+  Flash Descriptor Read Access:      enabled
+  Requester ID:                      0x0000
+
+FLMSTR2:   0x0c0d0000 (Intel ME)
+  Platform Data Region Write Access: disabled
+  GbE Region Write Access:           enabled
+  Intel ME Region Write Access:      enabled
+  Host CPU/BIOS Region Write Access: disabled
+  Flash Descriptor Write Access:     disabled
+  Platform Data Region Read Access:  disabled
+  GbE Region Read Access:            enabled
+  Intel ME Region Read Access:       enabled
+  Host CPU/BIOS Region Read Access:  disabled
+  Flash Descriptor Read Access:      enabled
+  Requester ID:                      0x0000
+
+FLMSTR3:   0x08080218 (GbE)
+  Platform Data Region Write Access: disabled
+  GbE Region Write Access:           enabled
+  Intel ME Region Write Access:      disabled
+  Host CPU/BIOS Region Write Access: disabled
+  Flash Descriptor Write Access:     disabled
+  Platform Data Region Read Access:  disabled
+  GbE Region Read Access:            enabled
+  Intel ME Region Read Access:       disabled
+  Host CPU/BIOS Region Read Access:  disabled
+  Flash Descriptor Read Access:      disabled
+  Requester ID:                      0x0218
+
+Found Processor Strap Section
+????:      0x0000004c
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+????:      0xffffffff
+MCH_MeDisable bit is not set
+MCH_AltMeDisable bit is not set

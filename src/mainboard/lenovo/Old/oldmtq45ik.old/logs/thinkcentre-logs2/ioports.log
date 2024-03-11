@@ -1,0 +1,62 @@
+0000-0cf7 : PCI Bus 0000:00
+  0000-001f : dma1
+  0020-0021 : pic1
+  0040-0043 : timer0
+  0050-0053 : timer1
+  0060-0060 : keyboard
+  0061-0061 : PNP0800:00
+  0064-0064 : keyboard
+  0070-0071 : rtc0
+  0080-008f : dma page reg
+  00a0-00a1 : pic2
+  00c0-00df : dma2
+  00f0-00ff : fpu
+    00f0-00fe : PNP0C04:00
+  03f2-03f2 : floppy
+  03f4-03f5 : floppy
+  03f7-03f7 : floppy
+  03f8-03ff : serial
+  04d0-04d1 : pnp 00:00
+  0500-057f : pnp 00:00
+  0800-080f : pnp 00:00
+0cf8-0cff : PCI conf1
+0d00-fdff : PCI Bus 0000:00
+  1000-107f : pnp 00:00
+    1000-1003 : ACPI PM1a_EVT_BLK
+    1004-1005 : ACPI PM1a_CNT_BLK
+    1008-100b : ACPI PM_TMR
+    1020-102f : ACPI GPE0_BLK
+    1030-1033 : iTCO_wdt.1.auto
+    1050-1050 : ACPI PM2_CNT_BLK
+    1060-107f : iTCO_wdt.1.auto
+  1180-11ff : gpio_ich.2.auto
+    1180-11bf : pnp 00:00
+      11b0-11bf : gpio_ich
+    11c0-11cf : gpio_ich
+  1820-183f : 0000:00:19.0
+  1840-185f : 0000:00:1a.0
+    1840-185f : uhci_hcd
+  1860-187f : 0000:00:1a.1
+    1860-187f : uhci_hcd
+  1880-189f : 0000:00:1a.2
+    1880-189f : uhci_hcd
+  18a0-18bf : 0000:00:1d.0
+    18a0-18bf : uhci_hcd
+  18c0-18df : 0000:00:1d.1
+    18c0-18df : uhci_hcd
+  18e0-18ff : 0000:00:1d.2
+    18e0-18ff : uhci_hcd
+  1c00-1c1f : 0000:00:1f.2
+    1c00-1c1f : ahci
+  1c20-1c3f : 0000:00:1f.3
+    1c20-1c3f : i801_smbus
+  1c60-1c67 : 0000:00:02.0
+  1c68-1c6b : 0000:00:1f.2
+    1c68-1c6b : ahci
+  1c6c-1c6f : 0000:00:1f.2
+    1c6c-1c6f : ahci
+  1c70-1c77 : 0000:00:1f.2
+    1c70-1c77 : ahci
+  1c78-1c7f : 0000:00:1f.2
+    1c78-1c7f : ahci
+fe00-fe00 : pnp 00:00

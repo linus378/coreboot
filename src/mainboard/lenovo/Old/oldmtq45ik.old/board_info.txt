@@ -1,0 +1,14 @@
+Category: thinclient usff
+Board URL: https://pcsupport.lenovo.com/lk/en/products/desktops-and-all-in-ones/thinkcentre-m-series-desktops/thinkcentre-m58/7637
+ROM package: SOIC-8
+ROM protocol: SPI
+ROM socketed: n (some exeptions)
+Flashrom support: y
+Pulled from: Lenovo Thinkcentre M58 7637
+Northbridge: Q45
+Southbridge: ICH10
+RAM: 2x sodimm ddr3 
+Socket: 775
+Xeon support: Xeon 3000:Yes Xeon 5000:no
+Flash internally: yes (jumper 33 on top of pci slot needs to be bridged)
+Flash externally: Needs to be desoldered.

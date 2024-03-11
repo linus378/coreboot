@@ -1,0 +1,48 @@
+# biosdecode 3.5
+ACPI 2.0 present.
+	OEM Identifier: LENOVO
+	RSD Table 32-bit Address: 0xCFF9D257
+	XSD Table 64-bit Address: 0x00000000CFF9D2C3
+SMBIOS 2.5 present.
+	Structure Table Length: 3155 bytes
+	Structure Table Address: 0x000EF410
+	Number Of Structures: 64
+	Maximum Structure Size: 508 bytes
+BIOS32 Service Directory present.
+	Revision: 0
+	Calling Interface Address: 0x000FDBBA
+Intel Multiprocessor present.
+	Specification Revision: 1.4
+	Configuration Table Address: 0x0009D871
+	Mode: Virtual Wire
+PNP BIOS 1.0 present.
+	Event Notification: Not Supported
+	Real Mode 16-bit Code Address: E0D4:D55D
+	Real Mode 16-bit Data Address: 0040:0000
+	16-bit Protected Mode Code Address: 0x000FBC23
+	16-bit Protected Mode Data Address: 0x00000400
+PCI Interrupt Routing 1.0 present.
+	Router Device: ff:1f.7
+	Exclusive IRQs: None
+	Compatible Router: 8086:122e
+	Device: 00:00, on-board
+	Device: 00:01, on-board
+	Device: 01:00, slot 1
+	Device: 00:02, on-board
+	Device: 00:03, on-board
+	Device: 00:16, on-board
+	Device: 00:19, on-board
+	Device: 00:1a, on-board
+	Device: 00:1b, on-board
+	Device: 00:1c, on-board
+	Device: 02:00, slot 6
+	Device: 03:00, slot 7
+	Device: 04:00, slot 8
+	Device: 05:00, slot 9
+	Device: 06:00, slot 10
+	Device: 07:00, slot 11
+	Device: 00:1d, on-board
+	Device: 00:1e, on-board
+	Device: 11:00, slot 2
+	Device: 11:01, slot 3
+	Device: 00:1f, on-board

@@ -1,0 +1,2 @@
+config BOARD_LENOVO_THINKCENTRE_M58_7637
+	bool "ThinkCentre M58 (7637)"

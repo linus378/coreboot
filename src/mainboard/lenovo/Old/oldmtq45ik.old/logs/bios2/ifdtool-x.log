@@ -1,0 +1,6 @@
+File m58B.bin is 4194304 bytes
+  Flash Region 0 (Flash Descriptor): 00000000 - 00001fff 
+  Flash Region 1 (BIOS): 00280000 - 003fffff 
+  Flash Region 2 (Intel ME): 00006000 - 00277fff 
+  Flash Region 3 (GbE): 00002000 - 00005fff 
+  Flash Region 4 (Platform Data): 00278000 - 0027ffff 

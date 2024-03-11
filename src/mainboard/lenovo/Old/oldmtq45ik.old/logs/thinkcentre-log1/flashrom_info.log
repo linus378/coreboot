@@ -1,0 +1,28 @@
+flashrom 1.4.0-devel (git:v1.2-1391-ga21be915) on Linux 6.1.21-v8+ (aarch64)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+flashrom was built with GCC 10.2.1 20210110, little endian
+Command line (5 args): ./flashrom -V -p linux_spi:dev=/dev/spidev0.0,spispeed=32768 -c MX25L3206E/MX25L3208E
+Initializing linux_spi programmer
+Using device /dev/spidev0.0
+Using 32768kHz clock
+get_max_kernel_buf_size: Using value from /sys/module/spidev/parameters/bufsiz as max buffer size.
+linux_spi_init: max_kernel_buf_size: 4096
+The following protocols are supported: SPI.
+Probing for Macronix MX25L3206E/MX25L3208E, 4096 kB: compare_id: id1 0xc2, id2 0x2016
+Added layout entry 00000000 - 003fffff named complete flash
+Found Macronix flash chip "MX25L3206E/MX25L3208E" (4096 kB, SPI) on linux_spi.
+Chip status register is 0x00.
+Chip status register: Status Register Write Disable (SRWD, SRP, ...) is not set
+Chip status register: Bit 6 is not set
+Chip status register: Block Protect 3 (BP3) is not set
+Chip status register: Block Protect 2 (BP2) is not set
+Chip status register: Block Protect 1 (BP1) is not set
+Chip status register: Block Protect 0 (BP0) is not set
+Chip status register: Write Enable Latch (WEL) is not set
+Chip status register: Write In Progress (WIP/BUSY) is not set
+This chip may contain one-time programmable memory. flashrom cannot read
+and may never be able to write it, hence it may not be able to completely
+clone the contents of this chip (see man page for details).
+No operations were specified.
